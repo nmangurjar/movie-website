@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 1005;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#topl{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   padding: 4px;
+    color: white;
+    word-spacing: 20px;
+}
+#topc{
+    display: flex;
+}
+#topl h5{
+    font-family: gilroy;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#topl button{
+    font-family: gilroy;
+    word-spacing: 2px;
+    font-weight: 100;
+    height:30px ;
+    width: 130px;
+    border-radius: 2px;
+    border: none;
+    letter-spacing: 2px;
+    background-color:  rgba(229, 185, 74, 0.779);
+}
+#hero h1{
+    color:  rgba(229, 185, 74, 0.779);
+    font-size: 55px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+    h1 span{
+    color: white;
+    position: absolute;
+    left: -140px;
+    top:70%;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
+#d{
+    color:  rgba(229, 185, 74, 0.779);
+    font-family: gilroy;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 41%;
+    top: 40%;
+}
+#br{
+    display: flex;
+    gap:25px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    right: 10%
+}
+#bl{display: flex;
+    gap: 7px;
+    color: white;
+    font-family: gilroy;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%
+}
+#hero2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1625759882655-1b483b1a6202?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#hc{
+    font-family: gilroy;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 20%;
+}
+#hc #e{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#hc h2{
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    font-size: 50px;
+}
+#hb{  font-family: gilroy;
+    position: absolute;
+    top: 155%;
+    left: 22%;
+    display: flex;
+    gap: 180px;
+    font-size: 40px;
+    font-weight: 200;
+    color:  rgba(229, 185, 74, 0.779);
+}
+#hbb {
+    font-family: gilroy;
+    position: absolute;
+    top: 155%;
+    left:0%;
+    display: flex;
+    gap: 180px;
+    font-size: 15px;
+}
+#hero2 .ri-loader-3-line{
+    color: rgba(229, 185, 74, 0.779) ;
+    font-size: 60px;
+    font-weight: 100;
+    position: absolute;
+    top:-55%;
+    left: 408px;
+}
+#hero2 h5{
+    color:white;
+    position: absolute;
+    top:-41%;
+    left: 49.5%;
+    }
+#hero3 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   background-image: url(https://images.unsplash.com/photo-1515101628406-9df3570ed9f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+   background-size: cover;
+   background-position: center;
+}
+#ci{
+    height: 70%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1521794286957-348245b517a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    border-radius: 5px;
+}
+#hero3 h2{
+    word-spacing: 7px;
+    letter-spacing: 4px;
+    font-size: 45px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    color: white;
+    text-align: right;
+}
+#hero3 p{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: rgb(150, 147, 147);
+    font-size: 14px;
+    position: absolute;
+    top: 57%;
+    left: 13%;
+    text-align: right;
+}
+#hero3 #cbr{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    position: absolute;
+    top: 87%;
+    right: 27%;
+}
+#cbr h5{
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+#cbr h6{
+    color: rgb(128, 124, 124);
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+#ci i{
+    color: white;
+    font-size: 90px;
+    font-weight: 30;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero3 h3{
+ color:  rgba(229, 185, 74, 0.779);
+ position: absolute;
+ font-size: 50px;
+  top: 19%;
+ left: 15%;
+}
+#cb{
+    width: 50px;
+    height: 2px;
+    background-color: rgba(229, 185, 74, 0.779);
+    position: absolute;
+    top: 90%;
+    right: 46.5%;
+}
+
+#hero4 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    word-spacing: 35px;
+    background-image: url(https://images.unsplash.com/photo-1545158828-4e222fdb1d5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    
+}
+#hero4 img{
+    border-radius: 3px;
+    height: 190px;
+    width: 185px;
+}
+#db{
+    position: absolute;
+    top: 35%;
+    left: 28.5%;
+}
+#hero4 h2{
+    word-spacing: 7px;
+    letter-spacing: 4px;
+    font-size: 45px;
+    position: absolute;
+    top: 13%;
+    left: 38.5%;
+    color: white;
+}
+#hero4 p{
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    color: rgb(150, 147, 147);
+    font-size: 14px;
+    position: absolute;
+    top: 24%;
+    left: 28%;
+    text-align: center;
+}
+#hero4 .ri-loader-3-line{
+    color: rgba(229, 185, 74, 0.779) ;
+    font-size: 60px;
+    font-weight: 100;
+    position: absolute;
+    top:2%;
+    left:50%;
+    transform: translate(-50%,0);
+}
+#hero4 h5{
+    color:white;
+    position: absolute;
+    top:5.5%;
+    left: 49.5%;
+ }
